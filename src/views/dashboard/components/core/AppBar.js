@@ -1,7 +1,7 @@
-import {AppBarItem} from './AppBarItem'
+import { mapState, mapMutations } from 'vuex'
+import { AppBarItem } from './AppBarItem'
 
 // Utilities
-import { mapState, mapMutations } from 'vuex'
 
 export default {
   name: 'DashboardCoreAppBar',
