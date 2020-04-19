@@ -1,12 +1,13 @@
 
 // Components
-import {VHover, VListItem} from "vuetify/lib";
+import { VHover, VListItem } from "vuetify/lib";
 
+// eslint-disable-next-line import/prefer-default-export
 export const AppBarItem = {
   render(h) {
     return h(VHover, {
       scopedSlots: {
-        default: ({hover}) => h(VListItem, {
+        default: ({ hover }) => h(VListItem, {
           attrs: this.$attrs,
           class: {
             'black--text': !hover,

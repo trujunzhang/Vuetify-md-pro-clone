@@ -30,8 +30,6 @@
         style="max-width: 250px;"
       />
 
-      <v-divider class="mt-3" />
-
       <v-data-table
         :headers="headers"
         :items="items"
@@ -104,6 +102,20 @@
           office: 'London',
           age: 41,
           date: '2012/10/13'
+        },
+        {
+          name: 'Brenden Wagner',
+          position: 'Software Engineer',
+          office: 'San Francisco',
+          age: 28,
+          date: '2011/06/07'
+        },
+        {
+          name: 'Brenden Wagner',
+          position: 'Software Engineer',
+          office: 'San Francisco',
+          age: 28,
+          date: '2011/06/07'
         },
         {
           name: 'Brenden Wagner',
